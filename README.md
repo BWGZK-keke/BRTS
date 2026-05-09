@@ -189,6 +189,19 @@ python grade.py --enable_model_verifier
 
 The core BRTS implementation lives in `verl/verl/trainer/ppo/teacher_selection.py`, which implements the 3-tier waterfall (Tier-1 unconditioned sampling → Tier-2 ground-truth-guided recovery → Tier-3 most-similar fallback).
 
+## 🎈Citation
+
+If you find this work helpful, please cite us:
+
+```bibtex
+@inproceedings{brts2026,
+  title={On-Policy Distillation with Best-of-N Teacher Rollout Selection},
+  author={Anonymous},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026}
+}
+```
+
 ## Acknowledgements
 
 This codebase is built on top of [verl](https://github.com/volcengine/verl), and the evaluation pipeline is adapted from [JustRL](https://github.com/RyanLiu112/JustRL). We thank the authors of these projects for their excellent open-source work.
