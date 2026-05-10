@@ -124,16 +124,6 @@ This sets `TEACHER_ROLLOUT_TIER1_ONLY=False` and `TEACHER_ROLLOUT_N_ROLLOUTS_HIN
 > [!IMPORTANT]
 > **Non-thinking Models:** When training a non-thinking model (e.g. `Qwen3-1.7B (Non-thinking)`), add `+data.apply_chat_template_kwargs.enable_thinking=False` to the training script.
 
-#### RL (GRPO) baseline
-
-A reference GRPO script is included for reproducing the RL baseline:
-
-```bash
-bash grpo.sh
-```
-
-This sets `ADV_ESTIMATOR=grpo` and `LOG_PROB_TOP_K=0`.
-
 ### Validation
 
 The evaluation pipeline is adapted from [JustRL](https://github.com/RyanLiu112/JustRL).
