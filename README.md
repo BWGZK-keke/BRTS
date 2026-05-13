@@ -184,11 +184,14 @@ The core BRTS implementation lives in `verl/verl/trainer/ppo/teacher_selection.p
 If you find this work helpful, please cite us:
 
 ```bibtex
-@inproceedings{brts2026,
-  title={On-Policy Distillation with Best-of-N Teacher Rollout Selection},
-  author={Anonymous},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2026}
+@misc{zhang2026onpolicydistillationbestofnteacher,
+      title={On-Policy Distillation with Best-of-N Teacher Rollout Selection}, 
+      author={Ke Zhang and Yunjie Tian and DongDi Zhao and Yijiang Li and Yuanye Liu and Vishal M Patel and Di Fu},
+      year={2026},
+      eprint={2605.09725},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.09725}, 
 }
 ```
 
